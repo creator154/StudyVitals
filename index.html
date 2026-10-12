@@ -1,19 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VedStudy</title>
+  <title>VedStudy – Fast Streaming Platform</title>
+  <meta name="description" content="Fast and secure access to online study resources.">
   <style>
-    html, body { margin: 0; height: 100%; background: #000; }
-    iframe { width: 100%; height: 100%; border: 0; }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(160deg, #0f172a, #1e1b4b);
+      color: #fff;
+    }
+    .wrap {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+    h1 {
+      font-size: 2.4rem;
+      margin: 0 0 8px;
+      letter-spacing: 1px;
+    }
+    p {
+      margin: 0 0 32px;
+      color: #cbd5e1;
+      max-width: 320px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 16px 40px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #fff;
+      text-decoration: none;
+      background: linear-gradient(135deg, #f97316, #ef4444);
+      border-radius: 999px;
+      box-shadow: 0 8px 24px rgba(239, 68, 68, 0.4);
+      transition: transform 0.15s ease;
+    }
+    .btn:active { transform: scale(0.96); }
   </style>
 </head>
 <body>
-  <iframe
-    src="https://vedstudy.com"
-    allowfullscreen
-    allow="autoplay; fullscreen; encrypted-media; picture-in-picture">
-  </iframe>
+  <div class="wrap">
+    <h1>vedstudy</h1>
+    <p>Fast and secure access to study content and streaming.</p>
+    <a class="btn" href="https://vedstudy.com" rel="noopener">🔥 Open Now 🔥</a>
+  </div>
 </body>
 </html>
